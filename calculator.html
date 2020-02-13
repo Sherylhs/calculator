@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script type="text/javascript" src="js/calculator.js"></script>
+</head>
+
+<body>
+    <div id='calc-container'>
+        <form name="calculator">
+            <input name="display" type="text" readonly="readonly" id="calc-display" value="0" />
+            <div>
+                <button type="button" name="seven" value="7" id="calc-key-7" onClick="calculate(seven.value)">7</button>
+                <button type="button" name="eight" value="8" id="calc-key-8" onClick="calculate(eight.value)">8</button>
+                <button type="button" name="nine" value="9" id="calc-key-9" onClick="calculate(nine.value)">9</button>
+                <button type="button" name="plus" value="+" id="calc-plus" onClick="calculate(plus.value)">+</button>
+            </div>
+            <div>
+                <button type="button" name="four" value="4" id="calc-key-4" onClick="calculate(four.value)">4</button>
+                <button type="button" name="five" value="5" id="calc-key-5" onClick="calculate(five.value)">5</button>
+                <button type="button" name="six" value="6" id="calc-key-6" onClick="calculate(six.value)">6</button>
+                <button type="button" name="minus" value="-" id="calc-minus" onClick="calculate(minus.value)">-</button>
+            </div>
+            <div>
+                <button type="button" name="one" value="1" id="calc-key-1" onClick="calculate(value)">1</button>
+                <button type="button" name="two" value="2" id="calc-key-2" onClick="calculate(two.value)">2</button>
+                <button type="button" name="three" value="3" id="calc-key-3" onClick="calculate(three.value)">3</button>
+                <button type="button" name="times" value="x" id="calc-times" onClick="calculate(times.value)">x</button>
+            </div>
+            <div>
+                <button type="button" value="none" id="calc-key-none"></button>
+                <button type="button" name="zero" value="0" id="calc-key-0" onClick="calculate(zero.value)">0</button>
+                <button type="button" name="eqauls" value="=" id="calc-equals"
+                    onClick="getResult(eqauls.value)">=</button>
+                <button type="button" name="divide" value="÷" id="calc-divide"
+                    onClick="calculate(divide.value)">÷</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
