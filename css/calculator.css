@@ -1,0 +1,116 @@
+#calc-container {
+    display: flex;
+    position: relative;
+    width: 400px;
+    margin: 0px auto;
+    padding-right: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#calc-display {
+    display: flex;
+    background: #e5f3ca;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-plus {
+    background-color: rgb(241, 196, 144);
+    width: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-divide {
+    background-color: rgb(241, 196, 144);
+    width: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-minus {
+    background-color: rgb(241, 196, 144);
+    width: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-times {
+    background-color: rgb(241, 196, 144);
+    width: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-equals {
+    background-color: rgb(241, 196, 144);
+    width: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+#calc-times:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+#calc-divide:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+#calc-plus:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+#calc-minus:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+#calc-equals:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+button {
+    border-color: black;
+    background: #e5f3ca;
+    width: 50px;
+    height: 26px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+input[type=text] {
+    border-color: black;
+    position: relative;
+    width: 80%;
+    margin: 2px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+input:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+button:hover {
+    background-color: rgb(195, 225, 230);
+}
+
+#calc-key-none {
+    visibility: hidden;
+}
